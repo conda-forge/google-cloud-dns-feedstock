@@ -1,6 +1,6 @@
 {% set name = "google-cloud-dns" %}
-{% set version = "0.32.1" %}
-{% set sha256 = "7264e58067b55535ee859e124bd3da29337698ef6bb293da667d0316ddbe8606" %}
+{% set version = "0.32.3" %}
+{% set sha256 = "bbb1c855524bd3f0f2a3b3db883af0d3f618befb976aa694d7e507dd68fc7a71" %}
 
 package:
   name: {{ name|lower }}
