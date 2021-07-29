@@ -1,6 +1,6 @@
 {% set name = "google-cloud-dns" %}
-{% set version = "0.32.3" %}
-{% set sha256 = "bbb1c855524bd3f0f2a3b3db883af0d3f618befb976aa694d7e507dd68fc7a71" %}
+{% set version = "0.33.0" %}
+{% set sha256 = "88f009333c5e7d18cb034b4651f8c0b35e5926f732054241d5008c7cc068f7a2" %}
 
 package:
   name: {{ name|lower }}
@@ -21,7 +21,7 @@ requirements:
     - pip >=18.1
   run:
     - python >=3.6
-    - google-cloud-core >=1.3.0,<2.0.0dev
+    - google-cloud-core >=1.3.0,<3.0.0dev
 
 test:
   imports:
