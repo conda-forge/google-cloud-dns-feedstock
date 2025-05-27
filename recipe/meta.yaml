@@ -1,16 +1,16 @@
 {% set name = "google-cloud-dns" %}
-{% set version = "0.35.0" %}
+{% set version = "0.35.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dns-{{ version }}.tar.gz
-  sha256: 0ac44da9eb0fa0b1229513cd888074abd0211992c4042300afd1c16d41474553
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 954f44615d7ab6ffcd06324e2f9e760f96b07df1fcddb024b9a109d0b330a91f
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - google-cloud-core >=1.4.4,<3.0dev
+    - google-cloud-core >=1.4.4,<3.0.0
 
 test:
   imports:
