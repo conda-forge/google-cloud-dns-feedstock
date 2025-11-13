@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dns" %}
-{% set version = "0.35.1" %}
+{% set version = "0.36.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 954f44615d7ab6ffcd06324e2f9e760f96b07df1fcddb024b9a109d0b330a91f
+  sha256: 4b0a4ec76c273901d48b1b73132c3fdcd31874850ca6424cd75e6d631ae3711e
 
 build:
   number: 0
