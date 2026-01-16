@@ -13,7 +13,7 @@ Development: https://github.com/googleapis/python-dns
 
 Documentation: https://googleapis.dev/python/dns/latest/index.html
 
-Google Cloud DNS API provides methods that you can use to manage DNS for your applications. Google Cloud DNS is a scalable, reliable, and managed authoritative Domain Name System (DNS) service running on the same infrastructure as Google. It has low latency, high availability and is a cost-effective way to make your applications and services available to your users. You can easily publish and manage millions of DNS zones and records using our API.
+Google Cloud DNS API provides methods that you can use to manage DNS for your applications. Google Cloud DNS is a scalable, reliable, and managed authoritative Domain Name System (DNS) service running on the same infrastructure as Google. It has low latency, high availability and is a cost-effective way to:: - make your applications and services available to your users. You can easily publish and manage millions of DNS zones and records using our API.
 See the [quick start guide](https://googleapis.dev/python/dns/latest/index.html#quick-start).
 
 Current build status
