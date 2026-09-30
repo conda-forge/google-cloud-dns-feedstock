@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-dns
-  version: "0.37.1"
+  version: "0.37.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 84e87e6bbe11845e3576484f55be5aa44abcbd2e677cd57d3f841e77ab927702
+  sha256: 295629de0ee9f5569ea321df17a0986f44d9675f736d65493a078121cdbe321a
 
 build:
   number: 0
